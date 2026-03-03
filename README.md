@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <a href="YOUR_GITHUB_RELEASES_URL"><strong>Tải ngay — Miễn phí</strong></a>
+  <a href="[YOUR_GITHUB_RELEASES_URL](https://github.com/truongqv12/ntd-labs/releases)"><strong>Tải ngay — Miễn phí</strong></a>
   &nbsp;&bull;&nbsp;
   <a href="YOUR_WEBSITE_URL">Website</a>
   &nbsp;&bull;&nbsp;
@@ -92,7 +92,7 @@ Giải nén vào bất kỳ đâu trên máy Windows. Không cần cài đặt.
 Mở `NTD-LABS.exe` → Đăng nhập Google hoặc nhập license key → Bắt đầu tạo.
 
 <p align="center">
-  <a href="YOUR_GITHUB_RELEASES_URL"><strong>Tải NTD-LABS v1.1.5</strong></a>
+  <a href="[YOUR_GITHUB_RELEASES_URL](https://github.com/truongqv12/ntd-labs/releases)"><strong>Tải NTD-LABS</strong></a>
 </p>
 
 ---

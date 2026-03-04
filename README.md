@@ -7,17 +7,15 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/N%E1%BB%81n%20t%E1%BA%A3ng-Windows%2010%2F11-0078D4?style=flat-square&logo=windows&logoColor=white" alt="Windows">
-  <img src="https://img.shields.io/badge/Phi%C3%AAn%20b%E1%BA%A3n-1.1.5-DC2626?style=flat-square" alt="Version">
+  <img src="https://img.shields.io/badge/Phi%C3%AAn%20b%E1%BA%A3n-1.2.0-DC2626?style=flat-square" alt="Version">
   <img src="https://img.shields.io/badge/Gi%E1%BA%A5y%20ph%C3%A9p-Proprietary-F59E0B?style=flat-square" alt="License">
   <img src="https://img.shields.io/badge/D%C3%B9ng%20th%E1%BB%AD-Mi%E1%BB%85n%20ph%C3%AD-10B981?style=flat-square" alt="Free Tier">
 </p>
 
 <p align="center">
-  <a href="[YOUR_GITHUB_RELEASES_URL](https://github.com/truongqv12/ntd-labs/releases)"><strong>Tải ngay — Miễn phí</strong></a>
+  <a href="https://github.com/truongqv12/ntd-labs/releases"><strong>Tải ngay — Miễn phí</strong></a>
   &nbsp;&bull;&nbsp;
-  <a href="YOUR_WEBSITE_URL">Website</a>
-  &nbsp;&bull;&nbsp;
-  <a href="YOUR_ISSUES_URL">Báo lỗi</a>
+  <a href="https://github.com/truongqv12/ntd-labs/issues">Báo lỗi</a>
 </p>
 
 ---
@@ -81,7 +79,7 @@
 
 ### 1. Tải về
 
-Vào [Releases](YOUR_GITHUB_RELEASES_URL), tải file `.zip` mới nhất.
+Vào [Releases](https://github.com/truongqv12/ntd-labs/releases), tải file `.zip` mới nhất.
 
 ### 2. Giải nén
 
@@ -92,7 +90,7 @@ Giải nén vào bất kỳ đâu trên máy Windows. Không cần cài đặt.
 Mở `NTD-LABS.exe` → Đăng nhập Google hoặc nhập license key → Bắt đầu tạo.
 
 <p align="center">
-  <a href="[YOUR_GITHUB_RELEASES_URL](https://github.com/truongqv12/ntd-labs/releases)"><strong>Tải NTD-LABS</strong></a>
+  <a href="https://github.com/truongqv12/ntd-labs/releases"><strong>Tải NTD-LABS v1.2.0</strong></a>
 </p>
 
 ---
@@ -113,20 +111,19 @@ Mở `NTD-LABS.exe` → Đăng nhập Google hoặc nhập license key → Bắt
 
 Dùng miễn phí. Nâng cấp khi bạn sẵn sàng.
 
-| Tính năng | Free | Pro |
-|-----------|:----:|:---:|
-| Tạo Ảnh | ✅ | ✅ |
-| Tạo Video | ✅ | ✅ |
-| Ảnh đồng nhất nhân vật | — | ✅ |
-| Video đồng nhất nhân vật | — | ✅ |
-| Video tham chiếu | — | ✅ |
-| Khung hình nối tiếp | — | ✅ |
-| Task đồng thời | 1 | Nhiều hơn |
-| Đa tài khoản | 1 | Nhiều |
-| Hỗ trợ ưu tiên | — | ✅ |
-| **Giá** | **$0** | **Liên hệ** |
+| Tính năng | Free | Lite | Pro |
+|-----------|:----:|:----:|:---:|
+| Tạo Ảnh | ✅ | ✅ | ✅ |
+| Tạo Video | ✅ | ✅ | ✅ |
+| Ảnh đồng nhất nhân vật | ✅ | ✅ | ✅ |
+| Video tham chiếu | ✅ | ✅ | ✅ |
+| Video đồng nhất nhân vật | — | ✅ | ✅ |
+| Prompt mỗi task | 50 | 1,000 | Không giới hạn |
+| Task đồng thời | 1 | 3 | 5 |
+| Tài khoản | 3 | 1 | 5 |
+| **Giá** | **Miễn phí** | **Có phí** | **Có phí** |
 
-> Thanh toán QR qua SePay — kích hoạt tức thì, ngay trong app.
+> Chi tiết giá xem trên website. Thanh toán QR qua SePay — kích hoạt tức thì, ngay trong app.
 
 ---
 
@@ -151,7 +148,7 @@ Dùng miễn phí. Nâng cấp khi bạn sẵn sàng.
 <details>
 <summary><strong>Có thật sự miễn phí không?</strong></summary>
 
-Có. Gói Free bao gồm Tạo Ảnh và Tạo Video, không giới hạn thời gian. Gói Pro mở thêm các chế độ nâng cao và tăng số task đồng thời.
+Có. Gói Free bao gồm Tạo Ảnh, Tạo Video, Ảnh đồng nhất và Video tham chiếu — không giới hạn thời gian. Gói Lite/Pro mở thêm Video đồng nhất, tăng prompt mỗi task và số task đồng thời.
 
 </details>
 
@@ -186,7 +183,7 @@ Hiện tại chưa. NTD-LABS chỉ chạy trên Windows. macOS/Linux chưa có t
 <details>
 <summary><strong>Tìm thấy lỗi thì báo ở đâu?</strong></summary>
 
-Mở issue trên [trang Issues](YOUR_ISSUES_URL). Ghi rõ phiên bản Windows, phiên bản app (xem trong dialog About), và các bước tái hiện lỗi.
+Mở issue trên [trang Issues](https://github.com/truongqv12/ntd-labs/issues). Ghi rõ phiên bản Windows, phiên bản app (xem trong dialog About), và các bước tái hiện lỗi.
 
 </details>
 
@@ -197,5 +194,4 @@ Mở issue trên [trang Issues](YOUR_ISSUES_URL). Ghi rõ phiên bản Windows, 
   <br>
   <strong>NTD-LABS</strong> — Nuôi Tôi Đi Labs
   <br>
-  <em>Mèo đã được nuôi. Content pipeline của bạn thì chưa. Sửa đi.</em>
 </p>

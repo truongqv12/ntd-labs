@@ -7,7 +7,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/N%E1%BB%81n%20t%E1%BA%A3ng-Windows%2010%2F11-0078D4?style=flat-square&logo=windows&logoColor=white" alt="Windows">
-  <img src="https://img.shields.io/badge/Phi%C3%AAn%20b%E1%BA%A3n-1.2.0-DC2626?style=flat-square" alt="Version">
+  <img src="https://img.shields.io/badge/Phi%C3%AAn%20b%E1%BA%A3n-1.3.0-DC2626?style=flat-square" alt="Version">
   <img src="https://img.shields.io/badge/Gi%E1%BA%A5y%20ph%C3%A9p-Proprietary-F59E0B?style=flat-square" alt="License">
   <img src="https://img.shields.io/badge/D%C3%B9ng%20th%E1%BB%AD-Mi%E1%BB%85n%20ph%C3%AD-10B981?style=flat-square" alt="Free Tier">
 </p>
@@ -22,11 +22,11 @@
 
 ## NTD-LABS là gì?
 
-**NTD-LABS** là phần mềm Windows tự động tạo ảnh và video AI hàng loạt trên Google Labs — quản lý đa tài khoản, nhất quán nhân vật, chạy nền không cần giám sát, không cần biết code.
+**NTD-LABS** là phần mềm Windows tự động tạo ảnh và video AI hàng loạt trên Google Labs — quản lý đa tài khoản, nhất quán nhân vật, nâng cấp video 1080p/4K, chạy nền không cần giám sát, không cần biết code.
 
 > Nuôi mèo xong rồi thì nuôi luôn content pipeline đi. Để NTD-LABS lo.
 
-*NTD-LABS is a Windows desktop app that automates AI image & video generation on Google Labs — batch processing, multi-account, character-consistent, no coding required.*
+*NTD-LABS is a Windows desktop app that automates AI image & video generation on Google Labs — batch processing, multi-account, character-consistent, video upscale to 1080p/4K, no coding required.*
 
 <!-- TODO: Thêm demo GIF ở đây -->
 <!-- ![Demo](assets/demo.gif) -->
@@ -46,6 +46,7 @@
 
 - **4 chế độ tạo video** — text-to-video, ảnh tham chiếu, ảnh khởi đầu, khung hình nối tiếp
 - **Video khung hình nối tiếp** — quét thư mục, ghép cặp ảnh, tạo video tự động
+- **Nâng cấp video (Upscale)** — nâng chất lượng video lên 1080p hoặc 4K trên cả 4 trang video
 - **Ghép video** — gộp nhiều clip bằng FFmpeg tích hợp, hỗ trợ video xoay ngang/dọc
 - **Model mới nhất** — tự động cập nhật model video từ Google Labs
 
@@ -56,6 +57,7 @@
 - **Tự làm mới phiên** — session hết hạn tự refresh khi mở app
 - **Chọn project xuyên trang** — chọn Flow project 1 lần, dùng mọi nơi
 - **Quản lý task** — đặt tên, lọc, xóa task kèm dọn thư mục output
+- **Chỉnh sửa & thử lại prompt** — sửa prompt trực tiếp, retry từng prompt riêng lẻ
 - **Giao diện sáng & tối** — chuyển đổi tùy thích
 
 ---
@@ -70,6 +72,7 @@
 | **Video tham chiếu** | Ảnh + prompt | Video từ ảnh mẫu | Demo sản phẩm, storytelling |
 | **Video đồng nhất** | Ảnh nhân vật + prompt | Video nhất quán nhân vật | Nhân vật cố định, series |
 | **Khung hình nối tiếp** | Cặp ảnh + prompt | Video nối khung hình | Chuyển cảnh mượt, animation |
+| **Nâng cấp video** | Video đã tạo | Video 1080p / 4K | Tăng chất lượng cho xuất bản |
 
 ---
 
@@ -90,7 +93,7 @@ Giải nén vào bất kỳ đâu trên máy Windows. Không cần cài đặt.
 Mở `NTD-LABS.exe` → Đăng nhập Google hoặc nhập license key → Bắt đầu tạo.
 
 <p align="center">
-  <a href="https://github.com/truongqv12/ntd-labs/releases"><strong>Tải NTD-LABS v1.2.0</strong></a>
+  <a href="https://github.com/truongqv12/ntd-labs/releases"><strong>Tải NTD-LABS v1.3.0</strong></a>
 </p>
 
 ---
@@ -118,6 +121,7 @@ Dùng miễn phí. Nâng cấp khi bạn sẵn sàng.
 | Ảnh đồng nhất nhân vật | ✅ | ✅ | ✅ |
 | Video tham chiếu | ✅ | ✅ | ✅ |
 | Video đồng nhất nhân vật | — | ✅ | ✅ |
+| Nâng cấp video (1080p/4K) | — | ✅ | ✅ |
 | Prompt mỗi task | 50 | 1,000 | Không giới hạn |
 | Task đồng thời | 1 | 3 | 5 |
 | Tài khoản | 3 | 1 | 5 |
@@ -148,7 +152,7 @@ Dùng miễn phí. Nâng cấp khi bạn sẵn sàng.
 <details>
 <summary><strong>Có thật sự miễn phí không?</strong></summary>
 
-Có. Gói Free bao gồm Tạo Ảnh, Tạo Video, Ảnh đồng nhất và Video tham chiếu — không giới hạn thời gian. Gói Lite/Pro mở thêm Video đồng nhất, tăng prompt mỗi task và số task đồng thời.
+Có. Gói Free bao gồm Tạo Ảnh, Tạo Video, Ảnh đồng nhất và Video tham chiếu — không giới hạn thời gian. Gói Lite/Pro mở thêm Video đồng nhất, Nâng cấp video 1080p/4K, tăng prompt mỗi task và số task đồng thời.
 
 </details>
 

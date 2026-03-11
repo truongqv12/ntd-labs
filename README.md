@@ -22,11 +22,11 @@
 
 ## NTD-LABS là gì?
 
-**NTD-LABS** là phần mềm Windows tự động tạo ảnh và video AI hàng loạt trên Google Labs — quản lý đa tài khoản, nhất quán nhân vật, nâng cấp video 1080p/4K, chạy nền không cần giám sát, không cần biết code.
+**NTD-LABS** là phần mềm Windows tự động tạo ảnh và video AI hàng loạt trên Google Labs — quản lý đa tài khoản, nhất quán nhân vật, ghép video FFmpeg, chạy nền không cần giám sát, không cần biết code.
 
 > Nuôi mèo xong rồi thì nuôi luôn content pipeline đi. Để NTD-LABS lo.
 
-*NTD-LABS is a Windows desktop app that automates AI image & video generation on Google Labs — batch processing, multi-account, character-consistent, video upscale to 1080p/4K, no coding required.*
+*NTD-LABS is a Windows desktop app that automates AI image & video generation on Google Labs — batch processing, multi-account, character-consistent, FFmpeg video concat, no coding required.*
 
 <!-- TODO: Thêm demo GIF ở đây -->
 <!-- ![Demo](assets/demo.gif) -->
@@ -45,34 +45,33 @@
 ### Tạo video AI
 
 - **4 chế độ tạo video** — text-to-video, ảnh tham chiếu, ảnh khởi đầu, khung hình nối tiếp
-- **Video khung hình nối tiếp** — quét thư mục, ghép cặp ảnh, tạo video tự động
-- **Nâng cấp video (Upscale)** — nâng chất lượng video lên 1080p hoặc 4K trên cả 4 trang video
+- **Video khung hình nối tiếp** — quét thư mục, ghép cặp ảnh, tạo video tự động qua bảng mapping
 - **Ghép video** — gộp nhiều clip bằng FFmpeg tích hợp, hỗ trợ video xoay ngang/dọc
-- **Model mới nhất** — tự động cập nhật model video từ Google Labs
+- **Model mới nhất** — tự động cập nhật model video từ Google Labs (cache 24h)
+- **Nâng cấp video (Upscale)** — nâng chất lượng video lên 1080p hoặc 4K
 
 ### Tự động hóa & Quản lý
 
 - **Đa tài khoản** — chạy nhiều tài khoản Google Labs song song
-- **Giới hạn thông minh** — tự động điều chỉnh theo gói đăng ký
-- **Tự làm mới phiên** — session hết hạn tự refresh khi mở app
 - **Chọn project xuyên trang** — chọn Flow project 1 lần, dùng mọi nơi
-- **Quản lý task** — đặt tên, lọc, xóa task kèm dọn thư mục output
+- **Tự làm mới phiên** — session hết hạn tự refresh khi mở app
+- **Giới hạn thông minh** — tự động điều chỉnh theo gói đăng ký
+- **Quản lý task** — đặt tên, lọc theo loại trang, xóa task kèm dọn thư mục output
 - **Chỉnh sửa & thử lại prompt** — sửa prompt trực tiếp, retry từng prompt riêng lẻ
 - **Giao diện sáng & tối** — chuyển đổi tùy thích
 
 ---
 
-## Các chế độ tạo nội dung
+## 6 trang tạo nội dung
 
-| Chế độ | Đầu vào | Đầu ra | Phù hợp cho |
-|--------|---------|--------|-------------|
+| Trang | Đầu vào | Đầu ra | Phù hợp cho |
+|-------|---------|--------|-------------|
 | **Tạo Ảnh** | Prompt văn bản | Ảnh AI hàng loạt | Sản xuất content số lượng lớn |
-| **Ảnh đồng nhất** | Prompt + ảnh tham chiếu | Ảnh nhất quán nhân vật | Series, avatar, brand character |
+| **Ảnh đồng nhất** | Prompt + ảnh `@tên` | Ảnh nhất quán nhân vật | Series, avatar, brand character |
 | **Tạo Video** | Prompt văn bản | Video AI | Short-form, quảng cáo |
 | **Video tham chiếu** | Ảnh + prompt | Video từ ảnh mẫu | Demo sản phẩm, storytelling |
-| **Video đồng nhất** | Ảnh nhân vật + prompt | Video nhất quán nhân vật | Nhân vật cố định, series |
+| **Video đồng nhất** | Ảnh nhân vật + prompt | Video nhất quán nhân vật | Series nhân vật cố định |
 | **Khung hình nối tiếp** | Cặp ảnh + prompt | Video nối khung hình | Chuyển cảnh mượt, animation |
-| **Nâng cấp video** | Video đã tạo | Video 1080p / 4K | Tăng chất lượng cho xuất bản |
 
 ---
 
@@ -143,7 +142,7 @@ Dùng miễn phí. Nâng cấp khi bạn sẵn sàng.
 
 <!-- TODO: Thêm ảnh khi có -->
 <!-- ![Ảnh đồng nhất](assets/screenshot/character-mode.jpg) -->
-<!-- ![Quản lý Task](assets/screenshot/task-management.jpg) -->
+<!-- ![Khung hình nối tiếp](assets/screenshot/sequential-frame.jpg) -->
 
 ---
 

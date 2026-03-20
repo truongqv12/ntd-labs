@@ -7,7 +7,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/N%E1%BB%81n%20t%E1%BA%A3ng-Windows%2010%2F11-0078D4?style=flat-square&logo=windows&logoColor=white" alt="Windows">
-  <img src="https://img.shields.io/badge/Phi%C3%AAn%20b%E1%BA%A3n-1.3.0-DC2626?style=flat-square" alt="Version">
+  <img src="https://img.shields.io/badge/Phi%C3%AAn%20b%E1%BA%A3n-1.3.4-DC2626?style=flat-square" alt="Version">
   <img src="https://img.shields.io/badge/Gi%E1%BA%A5y%20ph%C3%A9p-Proprietary-F59E0B?style=flat-square" alt="License">
   <img src="https://img.shields.io/badge/D%C3%B9ng%20th%E1%BB%AD-Mi%E1%BB%85n%20ph%C3%AD-10B981?style=flat-square" alt="Free Tier">
 </p>
@@ -26,7 +26,7 @@
 
 > Nuôi mèo xong rồi thì nuôi luôn content pipeline đi. Để NTD-LABS lo.
 
-*NTD-LABS is a Windows desktop app that automates AI image & video generation on Google Labs — batch processing, multi-account, character-consistent, FFmpeg video concat, no coding required.*
+_NTD-LABS is a Windows desktop app that automates AI image & video generation on Google Labs — batch processing, multi-account, character-consistent, FFmpeg video concat, no coding required._
 
 <!-- TODO: Thêm demo GIF ở đây -->
 <!-- ![Demo](assets/demo.gif) -->
@@ -39,6 +39,7 @@
 
 - **Tạo ảnh hàng loạt** — nhập danh sách prompt, app tự chạy, bạn đi làm việc khác
 - **Hai dịch vụ** — Whisk + Flow, tối đa output
+- **5 khung hình cho Flow** — `16:9 Ngang`, `9:16 Dọc`, `4:3 Ngang`, `1:1 Vuông`, `3:4 Dọc` — chọn tỷ lệ phù hợp từng mục đích
 - **Ảnh đồng nhất nhân vật** — dùng cú pháp `@tên` để giữ khuôn mặt/phong cách nhất quán
 - **Upload thông minh** — ảnh tham chiếu chỉ upload 1 lần mỗi task
 
@@ -64,14 +65,14 @@
 
 ## 6 trang tạo nội dung
 
-| Trang | Đầu vào | Đầu ra | Phù hợp cho |
-|-------|---------|--------|-------------|
-| **Tạo Ảnh** | Prompt văn bản | Ảnh AI hàng loạt | Sản xuất content số lượng lớn |
-| **Ảnh đồng nhất** | Prompt + ảnh `@tên` | Ảnh nhất quán nhân vật | Series, avatar, brand character |
-| **Tạo Video** | Prompt văn bản | Video AI | Short-form, quảng cáo |
-| **Video tham chiếu** | Ảnh + prompt | Video từ ảnh mẫu | Demo sản phẩm, storytelling |
-| **Video đồng nhất** | Ảnh nhân vật + prompt | Video nhất quán nhân vật | Series nhân vật cố định |
-| **Khung hình nối tiếp** | Cặp ảnh + prompt | Video nối khung hình | Chuyển cảnh mượt, animation |
+| Trang                   | Đầu vào               | Đầu ra                   | Phù hợp cho                     |
+| ----------------------- | --------------------- | ------------------------ | ------------------------------- |
+| **Tạo Ảnh**             | Prompt văn bản        | Ảnh AI hàng loạt         | Sản xuất content số lượng lớn   |
+| **Ảnh đồng nhất**       | Prompt + ảnh `@tên`   | Ảnh nhất quán nhân vật   | Series, avatar, brand character |
+| **Tạo Video**           | Prompt văn bản        | Video AI                 | Short-form, quảng cáo           |
+| **Video tham chiếu**    | Ảnh + prompt          | Video từ ảnh mẫu         | Demo sản phẩm, storytelling     |
+| **Video đồng nhất**     | Ảnh nhân vật + prompt | Video nhất quán nhân vật | Series nhân vật cố định         |
+| **Khung hình nối tiếp** | Cặp ảnh + prompt      | Video nối khung hình     | Chuyển cảnh mượt, animation     |
 
 ---
 
@@ -92,20 +93,20 @@ Giải nén vào bất kỳ đâu trên máy Windows. Không cần cài đặt.
 Mở `NTD-LABS.exe` → Đăng nhập Google hoặc nhập license key → Bắt đầu tạo.
 
 <p align="center">
-  <a href="https://github.com/truongqv12/ntd-labs/releases"><strong>Tải NTD-LABS v1.3.0</strong></a>
+  <a href="https://github.com/truongqv12/ntd-labs/releases"><strong>Tải NTD-LABS v1.3.4</strong></a>
 </p>
 
 ---
 
 ## Yêu cầu hệ thống
 
-| Thành phần | Yêu cầu |
-|-----------|---------|
-| Hệ điều hành | Windows 10 / 11 (64-bit) |
-| RAM | Tối thiểu 4 GB, khuyến nghị 8 GB |
-| Ổ cứng | ~1.5 GB trống |
-| Internet | Bắt buộc (truy cập Google Labs) |
-| Tài khoản Google | Bắt buộc (miễn phí) |
+| Thành phần       | Yêu cầu                          |
+| ---------------- | -------------------------------- |
+| Hệ điều hành     | Windows 10 / 11 (64-bit)         |
+| RAM              | Tối thiểu 4 GB, khuyến nghị 8 GB |
+| Ổ cứng           | ~1.5 GB trống                    |
+| Internet         | Bắt buộc (truy cập Google Labs)  |
+| Tài khoản Google | Bắt buộc (miễn phí)              |
 
 ---
 
@@ -113,18 +114,18 @@ Mở `NTD-LABS.exe` → Đăng nhập Google hoặc nhập license key → Bắt
 
 Dùng miễn phí. Nâng cấp khi bạn sẵn sàng.
 
-| Tính năng | Free | Lite | Pro |
-|-----------|:----:|:----:|:---:|
-| Tạo Ảnh | ✅ | ✅ | ✅ |
-| Tạo Video | ✅ | ✅ | ✅ |
-| Ảnh đồng nhất nhân vật | ✅ | ✅ | ✅ |
-| Video tham chiếu | ✅ | ✅ | ✅ |
-| Video đồng nhất nhân vật | — | ✅ | ✅ |
-| Nâng cấp video (1080p/4K) | — | ✅ | ✅ |
-| Prompt mỗi task | 50 | 1,000 | Không giới hạn |
-| Task đồng thời | 1 | 3 | 5 |
-| Tài khoản | 3 | 1 | 5 |
-| **Giá** | **Miễn phí** | **Có phí** | **Có phí** |
+| Tính năng                 |     Free     |    Lite    |      Pro       |
+| ------------------------- | :----------: | :--------: | :------------: |
+| Tạo Ảnh                   |      ✅      |     ✅     |       ✅       |
+| Tạo Video                 |      ✅      |     ✅     |       ✅       |
+| Ảnh đồng nhất nhân vật    |      ✅      |     ✅     |       ✅       |
+| Video tham chiếu          |      ✅      |     ✅     |       ✅       |
+| Video đồng nhất nhân vật  |      —       |     ✅     |       ✅       |
+| Nâng cấp video (1080p/4K) |      —       |     ✅     |       ✅       |
+| Prompt mỗi task           |      50      |   1,000    | Không giới hạn |
+| Task đồng thời            |      1       |     3      |       5        |
+| Tài khoản                 |      3       |     1      |       5        |
+| **Giá**                   | **Miễn phí** | **Có phí** |   **Có phí**   |
 
 > Chi tiết giá xem trên website. Thanh toán QR qua SePay — kích hoạt tức thì, ngay trong app.
 
@@ -136,13 +137,17 @@ Dùng miễn phí. Nâng cấp khi bạn sẵn sàng.
 
 ![Tạo Ảnh](assets/screenshot/image_create.jpg)
 
+### Chọn Tỷ Lệ Ảnh — Aspect Ratio Selector
+
+![Khung hình](assets/screenshot/khung-hinh.png)
+
+### Flow — 5 Khung Hình Hỗ Trợ
+
+![Thêm khung](assets/screenshot/them-khung.png)
+
 ### Video Tham Chiếu — Image-to-Video Batch Processing
 
 ![Video Tham Chiếu](assets/screenshot/ref_video.jpg)
-
-<!-- TODO: Thêm ảnh khi có -->
-<!-- ![Ảnh đồng nhất](assets/screenshot/character-mode.jpg) -->
-<!-- ![Khung hình nối tiếp](assets/screenshot/sequential-frame.jpg) -->
 
 ---
 
